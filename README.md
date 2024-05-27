@@ -1,2 +1,3 @@
 # FTP4RM
-Fast Trajectory Planner with Reinforcement Learning-Based Joint Space Controller for Robotic Manipulator
+Fast Trajectory Planner with a Reinforcement Learning-Based Controller for Robotic Manipulators
+This repository will be published soon.

@@ -1,0 +1,577 @@
+logging at : PPO_tricks_logs/PyBullet UR5e robot//PPO_TricksPyBullet UR5e robot_log_1.csv
+save actor_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_actor_PyBullet UR5e robot_2_0.pth
+save critic_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_critic_PyBullet UR5e robot_2_0.pth
+--------------------------------------------------------------------------------------------
+max training timesteps :  1500000
+max timesteps per episode :  100
+model saving frequency : 100000 timesteps
+log frequency : 200 timesteps
+printing average reward over episodes in last : 100000 timesteps
+--------------------------------------------------------------------------------------------
+state space dimension :  25
+action space dimension :  6
+--------------------------------------------------------------------------------------------
+Initializing a continuous action space policy
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+PPO K epochs :  20
+PPO epsilon clip :  0.2
+discount factor (gamma) :  0.99
+--------------------------------------------------------------------------------------------
+optimizer learning rate actor :  0.0003
+optimizer learning rate critic :  0.0003
+--------------------------------------------------------------------------------------------
+setting random seed to  2
+Started training at (GMT) :  2024-03-31 06:34:35
+============================================================================================
+Episode : 1000 		 Timestep : 100000 		 Average Reward : -115.97
+Elapsed Time  :  0:49:04
+Episode : 2000 		 Timestep : 200000 		 Average Reward : -34.35
+Elapsed Time  :  1:15:12
+Episode : 3000 		 Timestep : 300000 		 Average Reward : 111.07
+Elapsed Time  :  1:35:34
+Episode : 4000 		 Timestep : 400000 		 Average Reward : 234.81
+Elapsed Time  :  1:55:10
+Episode : 5000 		 Timestep : 500000 		 Average Reward : 335.11
+Elapsed Time  :  2:15:13
+Episode : 6000 		 Timestep : 600000 		 Average Reward : 420.61
+Elapsed Time  :  2:34:47
+Episode : 7000 		 Timestep : 700000 		 Average Reward : 498.72
+Elapsed Time  :  2:54:14
+Episode : 8000 		 Timestep : 800000 		 Average Reward : 558.76
+Elapsed Time  :  3:13:24
+Episode : 9000 		 Timestep : 900000 		 Average Reward : 612.92
+Elapsed Time  :  3:33:02
+Episode : 10000 		 Timestep : 1000000 		 Average Reward : 652.72
+Elapsed Time  :  3:53:11
+Episode : 11000 		 Timestep : 1100000 		 Average Reward : 687.4
+Elapsed Time  :  4:13:04
+Episode : 12000 		 Timestep : 1200000 		 Average Reward : 718.0
+Elapsed Time  :  4:32:34
+Episode : 13000 		 Timestep : 1300000 		 Average Reward : 735.76
+Elapsed Time  :  4:52:13
+Episode : 14000 		 Timestep : 1400000 		 Average Reward : 754.24
+Elapsed Time  :  5:12:17
+Episode : 15000 		 Timestep : 1500000 		 Average Reward : 763.79
+Elapsed Time  :  5:31:27
+============================================================================================
+Started training at (GMT) :  2024-03-31 06:34:35
+Finished training at (GMT) :  2024-03-31 12:06:02
+Total training time  :  5:31:27
+============================================================================================
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/iterative.py:10: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:7: DeprecationWarning: Please use `asmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import asmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `IdentityOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsqr.py:56: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsmr.py:24: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/dsolve/linsolve.py:7: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `isdense` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+<frozen importlib._bootstrap>:228: RuntimeWarning: scipy._lib.messagestream.MessageStream size changed, may indicate binary incompatibility. Expected 56 from C header, got 64 from PyObject
+pybullet build time: May 20 2022 19:45:31
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mapping.py:4: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mixins.py:5: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping, Sequence
+/opt/ros/noetic/lib/python3/dist-packages/actionlib/goal_id_generator.py:45: DeprecationWarning: invalid escape sequence \p
+  """
+/opt/ros/noetic/lib/python3/dist-packages/tf/transformations.py:32: DeprecationWarning: invalid escape sequence \*
+  """Homogeneous Transformation Matrices and Quaternions.
+============================================================================================
+Environment name: PyBullet UR5e robot 
+training environment name : PyBullet UR5e robot
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: WARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/core.py:172: DeprecationWarning: WARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed) instead.
+  deprecation(
+current logging run number for PyBullet UR5e robot :  2
+logging at : PPO_tricks_logs/PyBullet UR5e robot//PPO_TricksPyBullet UR5e robot_log_2.csv
+save actor_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_actor_PyBullet UR5e robot_3_0.pth
+save critic_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_critic_PyBullet UR5e robot_3_0.pth
+--------------------------------------------------------------------------------------------
+max training timesteps :  1500000
+max timesteps per episode :  100
+model saving frequency : 100000 timesteps
+log frequency : 200 timesteps
+printing average reward over episodes in last : 100000 timesteps
+--------------------------------------------------------------------------------------------
+state space dimension :  25
+action space dimension :  6
+--------------------------------------------------------------------------------------------
+Initializing a continuous action space policy
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+PPO K epochs :  20
+PPO epsilon clip :  0.2
+discount factor (gamma) :  0.99
+--------------------------------------------------------------------------------------------
+optimizer learning rate actor :  0.0003
+optimizer learning rate critic :  0.0003
+--------------------------------------------------------------------------------------------
+setting random seed to  3
+Started training at (GMT) :  2024-03-31 12:06:11
+============================================================================================
+Episode : 1000 		 Timestep : 100000 		 Average Reward : -113.26
+Elapsed Time  :  0:42:33
+Episode : 2000 		 Timestep : 200000 		 Average Reward : -24.76
+Elapsed Time  :  1:05:23
+Episode : 3000 		 Timestep : 300000 		 Average Reward : 124.23
+Elapsed Time  :  1:26:04
+Episode : 4000 		 Timestep : 400000 		 Average Reward : 242.31
+Elapsed Time  :  1:46:23
+Episode : 5000 		 Timestep : 500000 		 Average Reward : 346.16
+Elapsed Time  :  2:05:39
+Episode : 6000 		 Timestep : 600000 		 Average Reward : 428.28
+Elapsed Time  :  2:25:20
+Episode : 7000 		 Timestep : 700000 		 Average Reward : 501.93
+Elapsed Time  :  2:43:30
+Episode : 8000 		 Timestep : 800000 		 Average Reward : 566.85
+Elapsed Time  :  3:01:26
+Episode : 9000 		 Timestep : 900000 		 Average Reward : 618.61
+Elapsed Time  :  3:18:06
+Episode : 10000 		 Timestep : 1000000 		 Average Reward : 663.66
+Elapsed Time  :  3:35:56
+Episode : 11000 		 Timestep : 1100000 		 Average Reward : 696.11
+Elapsed Time  :  3:53:53
+Episode : 12000 		 Timestep : 1200000 		 Average Reward : 722.58
+Elapsed Time  :  4:11:23
+Episode : 13000 		 Timestep : 1300000 		 Average Reward : 743.89
+Elapsed Time  :  4:28:24
+Episode : 14000 		 Timestep : 1400000 		 Average Reward : 760.04
+Elapsed Time  :  4:45:06
+Episode : 15000 		 Timestep : 1500000 		 Average Reward : 769.67
+Elapsed Time  :  5:00:31
+============================================================================================
+Started training at (GMT) :  2024-03-31 12:06:11
+Finished training at (GMT) :  2024-03-31 17:06:42
+Total training time  :  5:00:31
+============================================================================================
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/iterative.py:10: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:7: DeprecationWarning: Please use `asmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import asmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `IdentityOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsqr.py:56: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsmr.py:24: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/dsolve/linsolve.py:7: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `isdense` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+<frozen importlib._bootstrap>:228: RuntimeWarning: scipy._lib.messagestream.MessageStream size changed, may indicate binary incompatibility. Expected 56 from C header, got 64 from PyObject
+pybullet build time: May 20 2022 19:45:31
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mapping.py:4: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mixins.py:5: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping, Sequence
+/opt/ros/noetic/lib/python3/dist-packages/actionlib/goal_id_generator.py:45: DeprecationWarning: invalid escape sequence \p
+  """
+/opt/ros/noetic/lib/python3/dist-packages/tf/transformations.py:32: DeprecationWarning: invalid escape sequence \*
+  """Homogeneous Transformation Matrices and Quaternions.
+============================================================================================
+Environment name: PyBullet UR5e robot 
+training environment name : PyBullet UR5e robot
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: WARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/core.py:172: DeprecationWarning: WARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed) instead.
+  deprecation(
+current logging run number for PyBullet UR5e robot :  3
+logging at : PPO_tricks_logs/PyBullet UR5e robot//PPO_TricksPyBullet UR5e robot_log_3.csv
+save actor_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_actor_PyBullet UR5e robot_4_0.pth
+save critic_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_critic_PyBullet UR5e robot_4_0.pth
+--------------------------------------------------------------------------------------------
+max training timesteps :  1500000
+max timesteps per episode :  100
+model saving frequency : 100000 timesteps
+log frequency : 200 timesteps
+printing average reward over episodes in last : 100000 timesteps
+--------------------------------------------------------------------------------------------
+state space dimension :  25
+action space dimension :  6
+--------------------------------------------------------------------------------------------
+Initializing a continuous action space policy
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+PPO K epochs :  20
+PPO epsilon clip :  0.2
+discount factor (gamma) :  0.99
+--------------------------------------------------------------------------------------------
+optimizer learning rate actor :  0.0003
+optimizer learning rate critic :  0.0003
+--------------------------------------------------------------------------------------------
+setting random seed to  4
+Started training at (GMT) :  2024-03-31 17:06:48
+============================================================================================
+Episode : 1000 		 Timestep : 100000 		 Average Reward : -113.6
+Elapsed Time  :  0:33:10
+Episode : 2000 		 Timestep : 200000 		 Average Reward : -17.96
+Elapsed Time  :  0:51:13
+Episode : 3000 		 Timestep : 300000 		 Average Reward : 131.07
+Elapsed Time  :  1:06:41
+Episode : 4000 		 Timestep : 400000 		 Average Reward : 252.26
+Elapsed Time  :  1:21:53
+Episode : 5000 		 Timestep : 500000 		 Average Reward : 348.96
+Elapsed Time  :  1:36:21
+Episode : 6000 		 Timestep : 600000 		 Average Reward : 437.95
+Elapsed Time  :  1:51:18
+Episode : 7000 		 Timestep : 700000 		 Average Reward : 513.0
+Elapsed Time  :  2:05:40
+Episode : 8000 		 Timestep : 800000 		 Average Reward : 574.44
+Elapsed Time  :  2:20:45
+Episode : 9000 		 Timestep : 900000 		 Average Reward : 623.01
+Elapsed Time  :  2:35:09
+Episode : 10000 		 Timestep : 1000000 		 Average Reward : 66.89
+Elapsed Time  :  3:07:36
+Episode : 11000 		 Timestep : 1100000 		 Average Reward : -145.37
+Elapsed Time  :  3:48:30
+Episode : 12000 		 Timestep : 1200000 		 Average Reward : -136.42
+Elapsed Time  :  4:28:53
+Episode : 13000 		 Timestep : 1300000 		 Average Reward : -120.27
+Elapsed Time  :  5:11:40
+Episode : 14000 		 Timestep : 1400000 		 Average Reward : -107.32
+Elapsed Time  :  5:54:40
+Episode : 15000 		 Timestep : 1500000 		 Average Reward : -93.2
+Elapsed Time  :  6:37:12
+============================================================================================
+Started training at (GMT) :  2024-03-31 17:06:48
+Finished training at (GMT) :  2024-03-31 23:44:00
+Total training time  :  6:37:12
+============================================================================================
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/iterative.py:10: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:7: DeprecationWarning: Please use `asmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import asmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `IdentityOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsqr.py:56: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsmr.py:24: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/dsolve/linsolve.py:7: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `isdense` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+<frozen importlib._bootstrap>:228: RuntimeWarning: scipy._lib.messagestream.MessageStream size changed, may indicate binary incompatibility. Expected 56 from C header, got 64 from PyObject
+pybullet build time: May 20 2022 19:45:31
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mapping.py:4: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mixins.py:5: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping, Sequence
+/opt/ros/noetic/lib/python3/dist-packages/actionlib/goal_id_generator.py:45: DeprecationWarning: invalid escape sequence \p
+  """
+/opt/ros/noetic/lib/python3/dist-packages/tf/transformations.py:32: DeprecationWarning: invalid escape sequence \*
+  """Homogeneous Transformation Matrices and Quaternions.
+============================================================================================
+Environment name: PyBullet UR5e robot 
+training environment name : PyBullet UR5e robot
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: WARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/core.py:172: DeprecationWarning: WARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed) instead.
+  deprecation(
+current logging run number for PyBullet UR5e robot :  4
+logging at : PPO_tricks_logs/PyBullet UR5e robot//PPO_TricksPyBullet UR5e robot_log_4.csv
+save actor_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_actor_PyBullet UR5e robot_5_0.pth
+save critic_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_critic_PyBullet UR5e robot_5_0.pth
+--------------------------------------------------------------------------------------------
+max training timesteps :  1500000
+max timesteps per episode :  100
+model saving frequency : 100000 timesteps
+log frequency : 200 timesteps
+printing average reward over episodes in last : 100000 timesteps
+--------------------------------------------------------------------------------------------
+state space dimension :  25
+action space dimension :  6
+--------------------------------------------------------------------------------------------
+Initializing a continuous action space policy
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+PPO K epochs :  20
+PPO epsilon clip :  0.2
+discount factor (gamma) :  0.99
+--------------------------------------------------------------------------------------------
+optimizer learning rate actor :  0.0003
+optimizer learning rate critic :  0.0003
+--------------------------------------------------------------------------------------------
+setting random seed to  5
+Started training at (GMT) :  2024-03-31 23:44:08
+============================================================================================
+Episode : 1000 		 Timestep : 100000 		 Average Reward : -102.67
+Elapsed Time  :  0:26:21
+Episode : 2000 		 Timestep : 200000 		 Average Reward : 7.8
+Elapsed Time  :  0:45:06
+Episode : 3000 		 Timestep : 300000 		 Average Reward : 159.76
+Elapsed Time  :  1:30:54
+Episode : 4000 		 Timestep : 400000 		 Average Reward : 271.82
+Elapsed Time  :  2:20:51
+Episode : 5000 		 Timestep : 500000 		 Average Reward : 365.49
+Elapsed Time  :  3:09:34
+Episode : 6000 		 Timestep : 600000 		 Average Reward : 448.64
+Elapsed Time  :  3:57:50
+Episode : 7000 		 Timestep : 700000 		 Average Reward : 520.88
+Elapsed Time  :  4:46:43
+Episode : 8000 		 Timestep : 800000 		 Average Reward : 580.56
+Elapsed Time  :  5:35:28
+Episode : 9000 		 Timestep : 900000 		 Average Reward : 633.82
+Elapsed Time  :  6:24:42
+Episode : 10000 		 Timestep : 1000000 		 Average Reward : 675.17
+Elapsed Time  :  7:14:18
+Episode : 11000 		 Timestep : 1100000 		 Average Reward : 709.41
+Elapsed Time  :  8:03:12
+Episode : 12000 		 Timestep : 1200000 		 Average Reward : 734.83
+Elapsed Time  :  8:51:40
+Episode : 13000 		 Timestep : 1300000 		 Average Reward : 755.62
+Elapsed Time  :  9:41:40
+Episode : 14000 		 Timestep : 1400000 		 Average Reward : 769.05
+Elapsed Time  :  10:33:18
+Episode : 15000 		 Timestep : 1500000 		 Average Reward : 777.76
+Elapsed Time  :  11:24:05
+============================================================================================
+Started training at (GMT) :  2024-03-31 23:44:08
+Finished training at (GMT) :  2024-04-01 11:08:13
+Total training time  :  11:24:05
+============================================================================================
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/iterative.py:10: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:7: DeprecationWarning: Please use `asmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import asmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `IdentityOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsqr.py:56: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsmr.py:24: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/dsolve/linsolve.py:7: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `isdense` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+<frozen importlib._bootstrap>:228: RuntimeWarning: scipy._lib.messagestream.MessageStream size changed, may indicate binary incompatibility. Expected 56 from C header, got 64 from PyObject
+pybullet build time: May 20 2022 19:45:31
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mapping.py:4: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mixins.py:5: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping, Sequence
+/opt/ros/noetic/lib/python3/dist-packages/actionlib/goal_id_generator.py:45: DeprecationWarning: invalid escape sequence \p
+  """
+/opt/ros/noetic/lib/python3/dist-packages/tf/transformations.py:32: DeprecationWarning: invalid escape sequence \*
+  """Homogeneous Transformation Matrices and Quaternions.
+============================================================================================
+Environment name: PyBullet UR5e robot 
+training environment name : PyBullet UR5e robot
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: WARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/core.py:172: DeprecationWarning: WARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed) instead.
+  deprecation(
+current logging run number for PyBullet UR5e robot :  5
+logging at : PPO_tricks_logs/PyBullet UR5e robot//PPO_TricksPyBullet UR5e robot_log_5.csv
+save actor_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_actor_PyBullet UR5e robot_6_0.pth
+save critic_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_critic_PyBullet UR5e robot_6_0.pth
+--------------------------------------------------------------------------------------------
+max training timesteps :  1500000
+max timesteps per episode :  100
+model saving frequency : 100000 timesteps
+log frequency : 200 timesteps
+printing average reward over episodes in last : 100000 timesteps
+--------------------------------------------------------------------------------------------
+state space dimension :  25
+action space dimension :  6
+--------------------------------------------------------------------------------------------
+Initializing a continuous action space policy
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+PPO K epochs :  20
+PPO epsilon clip :  0.2
+discount factor (gamma) :  0.99
+--------------------------------------------------------------------------------------------
+optimizer learning rate actor :  0.0003
+optimizer learning rate critic :  0.0003
+--------------------------------------------------------------------------------------------
+setting random seed to  6
+Started training at (GMT) :  2024-04-01 11:09:11
+============================================================================================
+Episode : 1000 		 Timestep : 100000 		 Average Reward : -107.72
+Elapsed Time  :  1:28:48
+Episode : 2000 		 Timestep : 200000 		 Average Reward : -5.86
+Elapsed Time  :  2:23:44
+Episode : 3000 		 Timestep : 300000 		 Average Reward : 145.08
+Elapsed Time  :  3:15:23
+Episode : 4000 		 Timestep : 400000 		 Average Reward : 260.38
+Elapsed Time  :  3:48:39
+Episode : 5000 		 Timestep : 500000 		 Average Reward : 353.54
+Elapsed Time  :  4:03:54
+Episode : 6000 		 Timestep : 600000 		 Average Reward : 438.49
+Elapsed Time  :  4:31:13
+Episode : 7000 		 Timestep : 700000 		 Average Reward : 510.87
+Elapsed Time  :  5:17:59
+Episode : 8000 		 Timestep : 800000 		 Average Reward : 567.23
+Elapsed Time  :  6:04:35
+Episode : 9000 		 Timestep : 900000 		 Average Reward : 618.75
+Elapsed Time  :  6:52:43
+Episode : 10000 		 Timestep : 1000000 		 Average Reward : 663.24
+Elapsed Time  :  7:41:19
+Episode : 11000 		 Timestep : 1100000 		 Average Reward : 692.18
+Elapsed Time  :  8:30:25
+Episode : 12000 		 Timestep : 1200000 		 Average Reward : 722.02
+Elapsed Time  :  9:20:58
+Episode : 13000 		 Timestep : 1300000 		 Average Reward : 743.76
+Elapsed Time  :  10:14:42
+Episode : 14000 		 Timestep : 1400000 		 Average Reward : 758.99
+Elapsed Time  :  11:08:25
+Episode : 15000 		 Timestep : 1500000 		 Average Reward : 769.41
+Elapsed Time  :  11:58:10
+============================================================================================
+Started training at (GMT) :  2024-04-01 11:09:11
+Finished training at (GMT) :  2024-04-01 23:07:21
+Total training time  :  11:58:10
+============================================================================================
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/iterative.py:10: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:7: DeprecationWarning: Please use `asmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import asmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/utils.py:9: DeprecationWarning: Please use `IdentityOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator, \
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsqr.py:56: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/isolve/lsmr.py:24: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/dsolve/linsolve.py:7: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `aslinearoperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:47: DeprecationWarning: Please use `LinearOperator` from the `scipy.sparse.linalg` namespace, the `scipy.sparse.linalg.interface` namespace is deprecated.
+  from scipy.sparse.linalg.interface import aslinearoperator, LinearOperator
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `isdense` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+/home/p308894/miniconda3/lib/python3.9/site-packages/scipy/sparse/linalg/eigen/arpack/arpack.py:50: DeprecationWarning: Please use `is_pydata_spmatrix` from the `scipy.sparse` namespace, the `scipy.sparse.sputils` namespace is deprecated.
+  from scipy.sparse.sputils import isdense, is_pydata_spmatrix
+<frozen importlib._bootstrap>:228: RuntimeWarning: scipy._lib.messagestream.MessageStream size changed, may indicate binary incompatibility. Expected 56 from C header, got 64 from PyObject
+pybullet build time: May 20 2022 19:45:31
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mapping.py:4: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping
+/home/p308894/miniconda3/lib/python3.9/site-packages/attrdict/mixins.py:5: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping, Sequence
+/opt/ros/noetic/lib/python3/dist-packages/actionlib/goal_id_generator.py:45: DeprecationWarning: invalid escape sequence \p
+  """
+/opt/ros/noetic/lib/python3/dist-packages/tf/transformations.py:32: DeprecationWarning: invalid escape sequence \*
+  """Homogeneous Transformation Matrices and Quaternions.
+============================================================================================
+Environment name: PyBullet UR5e robot 
+training environment name : PyBullet UR5e robot
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/spaces/box.py:84: UserWarning: WARN: Box bound precision lowered by casting to float32
+  logger.warn(f"Box bound precision lowered by casting to {self.dtype}")
+/home/p308894/miniconda3/lib/python3.9/site-packages/gym/core.py:172: DeprecationWarning: WARN: Function `env.seed(seed)` is marked as deprecated and will be removed in the future. Please use `env.reset(seed=seed) instead.
+  deprecation(
+current logging run number for PyBullet UR5e robot :  6
+logging at : PPO_tricks_logs/PyBullet UR5e robot//PPO_TricksPyBullet UR5e robot_log_6.csv
+save actor_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_actor_PyBullet UR5e robot_7_0.pth
+save critic_checkpoint path : PPO_Tricks_preTrained/PyBullet UR5e robot/PPO_Tricks_critic_PyBullet UR5e robot_7_0.pth
+--------------------------------------------------------------------------------------------
+max training timesteps :  1500000
+max timesteps per episode :  100
+model saving frequency : 100000 timesteps
+log frequency : 200 timesteps
+printing average reward over episodes in last : 100000 timesteps
+--------------------------------------------------------------------------------------------
+state space dimension :  25
+action space dimension :  6
+--------------------------------------------------------------------------------------------
+Initializing a continuous action space policy
+--------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+PPO K epochs :  20
+PPO epsilon clip :  0.2
+discount factor (gamma) :  0.99
+--------------------------------------------------------------------------------------------
+optimizer learning rate actor :  0.0003
+optimizer learning rate critic :  0.0003
+--------------------------------------------------------------------------------------------
+setting random seed to  7
+Started training at (GMT) :  2024-04-01 23:08:16
+============================================================================================
+Episode : 1000 		 Timestep : 100000 		 Average Reward : -113.01
+Elapsed Time  :  1:41:06
+Episode : 2000 		 Timestep : 200000 		 Average Reward : -15.91
+Elapsed Time  :  2:38:42
+Episode : 3000 		 Timestep : 300000 		 Average Reward : 140.14
+Elapsed Time  :  3:28:19
+Episode : 4000 		 Timestep : 400000 		 Average Reward : 257.85
+Elapsed Time  :  4:09:57
+Episode : 5000 		 Timestep : 500000 		 Average Reward : 353.43
+Elapsed Time  :  4:50:46
+Episode : 6000 		 Timestep : 600000 		 Average Reward : 436.14
+Elapsed Time  :  5:32:08
+Episode : 7000 		 Timestep : 700000 		 Average Reward : 508.5
+Elapsed Time  :  6:12:15
+Episode : 8000 		 Timestep : 800000 		 Average Reward : 565.92
+Elapsed Time  :  6:51:14
+Episode : 9000 		 Timestep : 900000 		 Average Reward : 621.47
+Elapsed Time  :  7:24:55
+Episode : 10000 		 Timestep : 1000000 		 Average Reward : 661.76
+Elapsed Time  :  7:56:18
+Episode : 11000 		 Timestep : 1100000 		 Average Reward : 695.59
+Elapsed Time  :  8:25:40
+Episode : 12000 		 Timestep : 1200000 		 Average Reward : 725.58
+Elapsed Time  :  8:54:11
+Episode : 13000 		 Timestep : 1300000 		 Average Reward : 743.94
+Elapsed Time  :  9:22:04
+Episode : 14000 		 Timestep : 1400000 		 Average Reward : 760.13
+Elapsed Time  :  9:45:09
+Episode : 15000 		 Timestep : 1500000 		 Average Reward : 772.05
+Elapsed Time  :  10:02:33
+============================================================================================
+Started training at (GMT) :  2024-04-01 23:08:16
+Finished training at (GMT) :  2024-04-02 09:10:49
+Total training time  :  10:02:33
+============================================================================================
+(base) p308894@ai1788:/projects/yongliang/IPPO_RAL/single_arm_ppo_obstacle (finainal)/Action_ensemble/AE_exponential$ 
